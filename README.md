@@ -1,7 +1,7 @@
 # jenkins-Dockerfile
 Dockerfile for jenkins to run it in container
 
-#Run your jenkins directly by pulling the image from the DockerHub like this
+# Run your jenkins directly by pulling the image from the DockerHub like this
  docker run -d \
     -p 9090:8080 \
     -p 55000:50000 \
